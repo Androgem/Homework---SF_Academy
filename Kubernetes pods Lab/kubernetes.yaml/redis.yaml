@@ -1,0 +1,9 @@
+apiVersion: v1
+kind: Pod
+metadata:
+name: static-web
+labels:
+spec:
+containers:
+- name: redis
+image: redis
